@@ -1,0 +1,14 @@
+greeting:
+  message: "hello"
+quarkus:
+  http:
+    port: 8082
+  datasource:
+    username: root
+    password: havij
+    db-kind: mariadb
+    jdbc:
+      url: jdbc:mariadb://localhost:3306/test
+  hibernate-orm:
+    database:
+      generation: "update"
